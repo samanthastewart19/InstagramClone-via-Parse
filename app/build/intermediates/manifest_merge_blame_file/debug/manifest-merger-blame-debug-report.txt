@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.instagramclone"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <queries>
+14-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:7:5-12:15
+15
+16        <!-- Camera -->
+17        <intent>
+17-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:9:9-11:18
+18            <action android:name="android.media.action.IMAGE_CAPTURE" />
+18-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:10:13-73
+18-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:10:21-70
+19        </intent>
+20    </queries>
+21
+22    <application
+22-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:14:5-49:19
+23        android:name="com.example.instagramclone.ParseApplication"
+23-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:15:9-41
+24        android:allowBackup="true"
+24-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:16:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.3.1] C:\Users\saman\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@drawable/icon"
+27-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:17:9-38
+28        android:label="@string/app_name"
+28-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:18:9-41
+29        android:roundIcon="@drawable/icon"
+29-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:19:9-43
+30        android:supportsRtl="true"
+30-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:20:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.InstagramClone"
+32-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:21:9-52
+33        android:usesCleartextTraffic="true" >
+33-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:22:9-44
+34
+35        <!-- make sure within the application tag, otherwise app will crash with XmlResourceParser errors -->
+36        <provider
+36-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:24:13-32:24
+37            android:name="androidx.core.content.FileProvider"
+37-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:25:17-66
+38            android:authorities="com.codepath.fileprovider"
+38-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:26:17-64
+39            android:exported="false"
+39-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:27:17-41
+40            android:grantUriPermissions="true" >
+40-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:28:17-51
+41            <meta-data
+41-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:29:17-31:60
+42                android:name="android.support.FILE_PROVIDER_PATHS"
+42-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:30:21-71
+43                android:resource="@xml/fileprovider" />
+43-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:31:21-57
+44        </provider>
+45
+46        <activity android:name="com.example.instagramclone.LoginActivity" >
+46-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:33:9-42:20
+46-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:34:13-42
+47            <intent-filter>
+47-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:36:13-41:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:38:17-69
+48-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:38:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:40:17-77
+50-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:40:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:43:9-48:20
+54            android:name="com.example.instagramclone.MainActivity"
+54-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:44:13-41
+55            android:icon="@drawable/nav_logo_whiteout"
+55-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:46:13-55
+56            android:label="" >
+56-->C:\Users\saman\AndroidStudioProjects\ParstagramSammiie\app\src\main\AndroidManifest.xml:45:13-29
+57        </activity>
+58    </application>
+59
+60</manifest>

@@ -1,0 +1,33 @@
+com/example/instagramclone/MainActivity.java
+ com.example.instagramclone.MainActivity
+ com.example.instagramclone.MainActivity$1
+com/codepath/apps/restclienttemplate/TimeFormatter.java
+ com.codepath.apps.restclienttemplate.TimeFormatter
+com/example/instagramclone/Fragments/ComposeFragment.java
+ com.example.instagramclone.Fragments.ComposeFragment
+ com.example.instagramclone.Fragments.ComposeFragment$1
+ com.example.instagramclone.Fragments.ComposeFragment$2
+ com.example.instagramclone.Fragments.ComposeFragment$3
+com/example/instagramclone/PostAdapter.java
+ com.example.instagramclone.PostAdapter
+ com.example.instagramclone.PostAdapter$ViewHolder
+ com.example.instagramclone.PostAdapter$ViewHolder$1
+com/example/instagramclone/Fragments/HomeFragment.java
+ com.example.instagramclone.Fragments.HomeFragment
+ com.example.instagramclone.Fragments.HomeFragment$1
+ com.example.instagramclone.Fragments.HomeFragment$2
+com/example/instagramclone/LoginActivity.java
+ com.example.instagramclone.LoginActivity
+ com.example.instagramclone.LoginActivity$1
+ com.example.instagramclone.LoginActivity$2
+ com.example.instagramclone.LoginActivity$3
+ com.example.instagramclone.LoginActivity$4
+com/example/instagramclone/BuildConfig.java
+ com.example.instagramclone.BuildConfig
+com/example/instagramclone/Post.java
+ com.example.instagramclone.Post
+com/example/instagramclone/ParseApplication.java
+ com.example.instagramclone.ParseApplication
+com/example/instagramclone/Fragments/ProfileFragment.java
+ com.example.instagramclone.Fragments.ProfileFragment
+ com.example.instagramclone.Fragments.ProfileFragment$1
